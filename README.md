@@ -15,7 +15,7 @@ El proyecto combina un backend en Kotlin con una interfaz web sencilla en HTML +
 
 
 
-## 🧩 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 lineal-regression-app/
@@ -59,7 +59,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-🔹 Inicializa Spring Boot y levanta el servidor embebido **Tomcat** en el puerto `8080`.
+-  Inicializa Spring Boot y levanta el servidor embebido **Tomcat** en el puerto `8080`.
 
 
 
@@ -79,7 +79,7 @@ class RegressionController(val regressionService: RegressionService) {
 }
 ```
 
-🔹 Recibe los valores `x` y `y` en formato JSON y llama al servicio matemático.
+-  Recibe los valores `x` y `y` en formato JSON y llama al servicio matemático.
 
 
 
@@ -107,7 +107,7 @@ class RegressionService {
 }
 ```
 
-🔹 Calcula la pendiente (`slope`) y el intercepto (`intercept`) de la recta.
+-  Calcula la pendiente (`slope`) y el intercepto (`intercept`) de la recta.
 
 
 
@@ -152,7 +152,7 @@ document.getElementById("regression-form").addEventListener("submit", async (e) 
 
 
 
-## ▶️ Cómo ejecutar la aplicación
+##  Cómo ejecutar la aplicación
 
 1. **Abrir el proyecto en IntelliJ IDEA**
 
@@ -178,7 +178,7 @@ document.getElementById("regression-form").addEventListener("submit", async (e) 
    ```
 
 5. **Abrir en el navegador**
-   👉 [http://localhost:8080](http://localhost:8080)
+    [http://localhost:8080](http://localhost:8080)
 
 6. **Probar la app**
 
@@ -188,7 +188,7 @@ document.getElementById("regression-form").addEventListener("submit", async (e) 
 
 
 
-## 🧩 Ejemplo de uso
+##  Ejemplo de uso
 
 | X | Y |
 | - | - |
@@ -197,7 +197,7 @@ document.getElementById("regression-form").addEventListener("submit", async (e) 
 | 3 | 6 |
 | 4 | 8 |
 
-🔹 Resultado:
+-  Resultado:
 
 ```
 Slope: 2.0
@@ -206,7 +206,7 @@ Intercept: 0.0
 
 
 
-## 🛠️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 * **Kotlin** 2.0
 * **Spring Boot** 3.5.7
@@ -216,7 +216,7 @@ Intercept: 0.0
 
 
 
-## ✨ Autora
+##  Autores
 
 Proyecto desarrollado por **Ana Maria Hernandez Zea y Johan Steven Galeano Gonzalez** 
 Facilita la comprensión de cómo se implementa una regresión lineal simple y cómo integrarla en una aplicación web moderna con Kotlin.
